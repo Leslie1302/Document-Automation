@@ -25,7 +25,7 @@ To use the script:
 
 <p>You can choose the output format by selecting your preferred file output via text in the dialogue box.</p>
 
-# The generated memo template will be saved to the "HAULAGE_GENERATED PDFs" directory on your desktop.
+#### The generated memo template will be saved to the "HAULAGE_GENERATED PDFs" directory on your desktop.
 
 
 <h2>Limitations</h2>
