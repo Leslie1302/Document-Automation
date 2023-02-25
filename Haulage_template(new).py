@@ -68,13 +68,13 @@ while True:
             pdf.add_page()
             pdf.set_font("Times", size=12)
             pdf.cell(0, 10, filled_template, 0, 1, align="L")
-            pdf.output(f"C:/Users/lesli/Desktop/All files and folders/HAULAGE_GENERATED PDFs/{values[2]}.pdf")
+            pdf.output(f"~/HAULAGE_GENERATED PDFs/{values[2]}.pdf")
             sg.popup("Template filled and exported to PDF.")
         elif output_format.lower() == "docx":
             # Create the .docx file
             doc = docx.Document()
             doc.add_paragraph(filled_template)
-            doc.save(f"C:/Users/lesli/Desktop/All files and folders/HAULAGE_GENERATED PDFs/{values[2]}.docx")
+            doc.save(f"~/HAULAGE_GENERATED PDFs/{values[2]}.docx")
             sg.popup("Template filled and exported to docx.")
         else:
             sg.popup("Invalid output format. Please enter either PDF or DOCX.")
