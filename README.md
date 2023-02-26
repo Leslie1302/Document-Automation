@@ -30,9 +30,9 @@ To use the script:
 
 <h2>Limitations</h2>
 
-The script only supports a single format (PDF or DOCX) per run. To generate the template in another format, you need to run the script again and select the desired format.
+- The script only supports a single format (PDF or DOCX) per run. To generate the template in another format, you need to run the script again and select the desired format.
 
-The template does not bolden and underline places where need be automatically, but you can edit the .docx file when it is generated. 
+- The template does not bolden and underline places where need be automatically, but you can edit the .docx file when it is generated. 
 
 
 <h2>Contributing</h2>
